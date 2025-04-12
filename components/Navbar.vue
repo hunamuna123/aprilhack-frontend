@@ -71,7 +71,7 @@
                 class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block lg:w-auto lg:basis-auto lg:order-2 lg:col-span-6"
                 aria-labelledby="hs-navbar-hcail-collapse">
                 <div
-                    class="flex flex-col  p-2 rounded-3xl bg-white gap-y-0  gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0">
+                    class="flex flex-col  p-2 rounded-2xl bg-white gap-y-0  gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0">
                     <div>
                         <a class="relative inline-block text-black lg:my-0 my-2 mx-2 focus:outline-hidden before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-custom"
                             href="#" aria-current="page">Главная</a>

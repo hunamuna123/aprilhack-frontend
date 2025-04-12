@@ -8,10 +8,10 @@
 }
 
 body {
-    background-color: #dfdede;
+    background-color: #ededed;
     font-family: 'montserrat';
 
 }
 @theme {
-    --color-custom: #00D5BE;
+    --color-custom: black;
   }
