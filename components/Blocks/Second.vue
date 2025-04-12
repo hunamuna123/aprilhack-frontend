@@ -9,20 +9,20 @@
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <!-- Карточка -->
         <div class="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col">
-          <div class="relative h-60">
+          <div class="relative h-60 ">
             <img src="/taman.png" alt="Тамань" class="w-full h-full object-cover" />
             <span class="absolute top-3 left-3 bg-white/70 text-gray-800 text-sm font-medium px-3 py-1 rounded-xl backdrop-blur-md">
               Тамань
             </span>
           </div>
           <div class="p-4 flex-1 flex flex-col justify-between">
-            <p class="text-sm text-gray-700 mb-4">От дайвинга до конных прогулок — найдите идеальное приключение для себя</p>
+            <p class="text-sm text-black mb-4">От дайвинга до конных прогулок — найдите идеальное приключение для себя</p>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-1 text-yellow-500 font-medium text-sm">
                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                 5.5
               </div>
-              <button class="text-sm text-white bg-blue-200 hover:bg-blue-300 px-4 py-1.5 rounded-full font-medium shadow transition">
+              <button class="text-sm text-white bg-black hover:bg-gray-700 px-4 py-1.5 rounded-full font-medium shadow transition">
                 Подробнее
               </button>
             </div>
@@ -38,7 +38,7 @@
             </span>
           </div>
           <div class="p-4 flex-1 flex flex-col justify-between">
-            <p class="text-sm text-gray-700 mb-4">
+            <p class="text-sm text-black mb-4">
               Неважно, новичок вы или опытный мореплаватель — наши маршруты подарят вам адреналин и восторг...
             </p>
             <div class="text-gray-500 text-xs mb-2">
@@ -57,7 +57,7 @@
             </span>
           </div>
           <div class="p-4 flex-1 flex flex-col justify-between">
-            <p class="text-sm text-gray-700 mb-4">
+            <p class="text-sm text-black mb-4">
               Откройте для себя удивительный мир животных в сафари-парке, а затем насладитесь видами на море...
             </p>
             <div class="flex items-center gap-1 text-yellow-500 font-medium text-sm">

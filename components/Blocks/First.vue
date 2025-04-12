@@ -2,7 +2,7 @@
   <div class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full">
     <nav class="relative max-w-7xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto">
       <div class="lg:col-span-8">
-        <h1 class="text-4xl md:text-6xl font-semibold leading-tight text-gray-900">
+        <h1 class="text-4xl md:text-6xl font-semibold leading-tight text-black">
           Идеальный курорт -<br />
           только с нами
         </h1>
@@ -11,7 +11,7 @@
         <p class="text-black mb-4">
             MVP цифрового продукта с использованием современных технологий и подходов к разработке программного обеспечения.
         </p>
-        <button class="bg-custom text-white px-5 py-2 rounded-xl hover:bg-teal-600 transition">
+        <button class="bg-custom text-white px-5 py-2 rounded-xl hover:bg-gray-700 transition">
           Начать
         </button>
       </div>
@@ -36,7 +36,7 @@
               </svg>
               Location
             </p>
-            <p class="font-medium text-gray-900">Banyan, Indonesia</p>
+            <p class="font-medium text-black">Banyan, Indonesia</p>
           </div>
   
           <!-- Check In -->
@@ -48,7 +48,7 @@
               </svg>
               Check In
             </p>
-            <p class="font-medium text-gray-900">27 January 2025</p>
+            <p class="font-medium text-black">27 January 2025</p>
           </div>
   
           <!-- Check Out -->
@@ -60,7 +60,7 @@
               </svg>
               Check Out
             </p>
-            <p class="font-medium text-gray-900">30 January 2025</p>
+            <p class="font-medium text-black">30 January 2025</p>
           </div>
   
           <!-- People -->
@@ -73,7 +73,7 @@
                 </svg>
                 People
               </p>
-              <p class="font-medium text-gray-900">4 People, 1 Child</p>
+              <p class="font-medium text-black">4 People, 1 Child</p>
             </div>
             <button class="bg-black text-white p-2 rounded-full hover:bg-gray-700 transition">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

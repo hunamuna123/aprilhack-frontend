@@ -38,10 +38,10 @@
                         <rect x="2" y="8" width="20" height="13" rx="2" />
                     </svg>
                 </button>
-                <button type="button"
-                    class="p-2 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-custom text-white hover:bg-teal-600 focus:outline-hidden focus:bg-custom transition disabled:opacity-50 disabled:pointer-events-none">
+                <NuxtLink to="/auth/login" type="button"
+                    class="p-2 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-custom text-white hover:bg-gray-700 focus:outline-hidden focus:bg-gray-600 transition disabled:opacity-50 disabled:pointer-events-none">
                     Войти
-                </button>
+                </NuxtLink>
 
                 <div class="lg:hidden">
                     <button type="button"
