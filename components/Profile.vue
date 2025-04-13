@@ -18,7 +18,7 @@
       role="menu" aria-orientation="vertical" aria-labelledby="hs-header-profile-dropdown">
       <div class="py-3 px-5 bg-gray-100 rounded-t-lg">
         <p class="text-sm text-gray-500">Вы вошли как</p>
-        <p class="text-sm font-medium text-gray-800">tupoigoi2000@hui.com</p>
+        <p class="text-sm font-medium text-gray-800">tupoigoi2000@op.com</p>
       </div>
       <div class="p-1.5 space-y-0.5">
         <NuxtLink
