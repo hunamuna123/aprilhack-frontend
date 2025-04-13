@@ -14,6 +14,8 @@
     "@preline/range-slider": "^3.0.0",
     "@tailwindcss/vite": "^4.1.3",
     "axios": "^1.8.4",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
     "lodash": "^4.17.21",
     "nouislider": "^15.8.1",
     "nuxt": "^3.16.2",

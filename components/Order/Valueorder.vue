@@ -6,31 +6,31 @@
 			{{ product?.name || 'Нет название' }}
 		</h1>
 		<h4 class="text-md text-gray-500">
-			Категория:
+			Категория отдыха:
 			<span class="font-medium text-black">
 				{{ product?.category?.name || 'Нет категории' }}
 			</span>
 		</h4>
 		<div class="grid sm:grid-cols-2 gap-2 mt-6">
 			<h4 class="text-md text-gray-500">
-				Бренд:
+				ТурОператор:
 				<span class="font-medium text-black">
 					{{ product?.brand?.name || 'Нет бренда' }}
 				</span>
 			</h4>
 			<h4 class="text-md text-gray-500">
-				Количество на складе:
+				Кол-во человек:
 				<span class="font-medium text-black">
 					{{ product?.count_stok || 'Товаров не осталось!' }}
 				</span>
 			</h4>
 			<h4 class="text-md text-gray-500">
-				Brand:
-				<span class="font-medium text-black">brand name</span>
+				Статус:
+				<span class="font-medium text-black">Оплачено</span>
 			</h4>
 			<h4 class="text-md text-gray-500">
-				Brand:
-				<span class="font-medium text-black">brand name</span>
+				Начало:
+				<span class="font-medium text-black"> Положено</span>
 			</h4>
 		</div>
 		<div class="mt-6 flex items-center justify-between gap-4">
@@ -116,13 +116,72 @@
 			</div>
 
 		</div>
+		<client-only>
+    <MapWithRoute />
+  </client-only>
 		<hr class="my-4" />
 		<div class="flex flex-col gap-2">
-			<h1 class="text-2xl font-semibold">Описание</h1>
-			<p class="text-gray-600">
-				{{ product?.feedback_count || 'Отсутствует' }}
-			</p>
+			<div class="relative mt-8">
+  <!-- Линия -->
+  <div class="absolute left-4 top-0 bottom-0 w-px bg-gray-300"></div>
+
+  <!-- Этапы -->
+  <div class="space-y-8">
+    <!-- День 1 -->
+    <div class="relative pl-10">
+      <div class="absolute left-0 top-1 w-4 h-4 rounded-full bg-black ring-4 ring-gray-100"></div>
+      <h3 class="text-xl font-bold text-black">День 1</h3>
+      <ul class="mt-2 space-y-1 text-gray-600">
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600 before:rounded-full">
+          Посетить Красную площадь
+        </li>
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600/70 before:rounded-full">
+          Прогуляться по Арбату
+        </li>
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600/50 before:rounded-full">
+          Ужин в ресторане
+        </li>
+      </ul>
+    </div>
+
+    <!-- День 2 -->
+    <div class="relative pl-10">
+      <div class="absolute left-0 top-1 w-4 h-4 rounded-full bg-gray-800 ring-4 ring-gray-100"></div>
+      <h3 class="text-xl font-bold text-black">День 2</h3>
+      <ul class="mt-2 space-y-1 text-gray-600">
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600 before:rounded-full">
+          Экскурсия в Третьяковскую галерею
+        </li>
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600/70 before:rounded-full">
+          Обед в кафе
+        </li>
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600/50 before:rounded-full">
+          Прогулка по парку Зарядье
+        </li>
+      </ul>
+    </div>
+
+    <!-- День 3 -->
+    <div class="relative pl-10">
+      <div class="absolute left-0 top-1 w-4 h-4 rounded-full bg-gray-700 ring-4 ring-gray-100"></div>
+      <h3 class="text-xl font-bold text-black">День 3</h3>
+      <ul class="mt-2 space-y-1 text-gray-600">
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600 before:rounded-full">
+          Поездка в Новодевичий монастырь
+        </li>
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600/70 before:rounded-full">
+          Сувенирный шопинг
+        </li>
+        <li class="pl-4 relative before:absolute before:left-0 before:top-1 before:w-2 before:h-2 before:bg-gray-600/50 before:rounded-full">
+          Отъезд
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 		</div>
+	
 	</div>
 </template>
 <script setup>

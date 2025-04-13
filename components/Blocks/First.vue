@@ -34,9 +34,9 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M17.657 16.657L13.414 12m0 0l-4.243 4.243M13.414 12L12 10.586M12 10.586L10.586 12M12 10.586V3m0 9L3 21" />
               </svg>
-              Location
+              Локация
             </p>
-            <p class="font-medium text-black">Banyan, Indonesia</p>
+            <p class="font-medium text-black">Россия, Сочи</p>
           </div>
   
           <!-- Check In -->
@@ -58,9 +58,9 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M8 7V3M16 7V3M4 11h16M4 19h16M4 15h16" />
               </svg>
-              Check Out
+              Открытие сезона
             </p>
-            <p class="font-medium text-black">30 January 2025</p>
+            <p class="font-medium text-black">30 мая 2025</p>
           </div>
   
           <!-- People -->
@@ -71,9 +71,9 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M5 20h14M12 14a4 4 0 100-8 4 4 0 000 8z" />
                 </svg>
-                People
+                Мест в путевке
               </p>
-              <p class="font-medium text-black">4 People, 1 Child</p>
+              <p class="font-medium text-black">3 взрослых</p>
             </div>
             <button class="bg-black text-white p-2 rounded-full hover:bg-gray-700 transition">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

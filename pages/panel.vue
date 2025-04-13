@@ -26,7 +26,7 @@ definePageMeta({
                         </div>
                         <input type="text"
                             class="py-2 ps-10 pe-16 block w-full bg-white border-gray-200 rounded-lg text-sm focus:outline-hidden focus:border-blue-500 focus:ring-blue-500 checked:border-blue-500 disabled:opacity-50 disabled:pointer-events-none"
-                            placeholder="Search">
+                            placeholder="Поиск">
                         <div class="hidden absolute inset-y-0 end-0 flex items-center pointer-events-none z-20 pe-1">
                             <button type="button"
                                 class="inline-flex shrink-0 justify-center items-center size-6 rounded-full text-gray-500 hover:text-blue-600 focus:outline-hidden focus:text-blue-600"
@@ -83,7 +83,7 @@ definePageMeta({
                         </svg>
                         <span class="sr-only">Notifications</span>
                     </button>
-
+                    <span class="text-md">Бонусных баллов: 382</span>
                     <button type="button"
                         class="size-9.5 relative inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none">
                         <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
