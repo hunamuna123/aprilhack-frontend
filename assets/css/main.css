@@ -25,10 +25,6 @@ body {
 	overflow: hidden;
 	scroll-behavior: smooth;
 
-	color-scheme: only light;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
-	touch-action: manipulation;
 }
 
 body {

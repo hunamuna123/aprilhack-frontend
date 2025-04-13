@@ -5,7 +5,7 @@
 			<div class="w-full flex flex-col md:flex-row gap-12">
 				<ProductCarousel v-show="!isLoading" />
 				<ProductSkeleton v-if="isLoading" />
-				<ProductValue v-else :product="productData" />
+				<OrderValueorder v-else :product="productData" />
 			</div>
 		</div>
     </div>
